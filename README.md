@@ -35,5 +35,22 @@ To use it you just have to include jQuery and a copy of popup_confirmation plugi
 
 #### Demo 1
 ![](example/images/demo3.gif)
+```html
+ $('.confirmation').confirmation({
+      onClick: function(id, event) {
+          $('#result').text('Your pressed : ' + id);
+      }
+  });
+```
 #### Demo 2
 ![](example/images/demo4.gif)
+
+```html
+$('.confirmation').confirmation({
+      onClick: function(id, event) {
+          if(id == 'yes') {
+              window.location = event.target.href
+          }
+      }
+  });
+```
