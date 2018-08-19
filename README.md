@@ -9,5 +9,5 @@ To use it you just have to include jQuery and a copy of popup_confirmation plugi
 #### Example 
 
 ```html
-<p>Click <a href="https://www.facebook.com/" class="confirmation" confirmation-title='Confirmation' confirmation-message='Do you really    want to go to facebook ?'>Here</a> to go to facebook</p>
+<p>Click <a href="https://www.facebook.com/" class="confirmation" confirmation-title='Confirmation' confirmation-message='Do you want to go to facebook ?'>Here</a> to go to facebook</p>
 ```
