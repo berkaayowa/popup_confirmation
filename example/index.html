@@ -25,13 +25,8 @@
 </html>
 <script>
     $('.confirmation').confirmation({
-            onClick: function(id, event) {
-                // if(id == 'yes') {
-                    $('#result').text('Your pressed : ' + id);
-                    // window.location = event.target.href
-                    // console.log(event);
-                // }
-                
-            }
-        });
+        onClick: function(id, event) {
+            $('#result').text('Your pressed : ' + id);
+        }
+    });
 </script>
