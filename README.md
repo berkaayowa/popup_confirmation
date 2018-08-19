@@ -32,3 +32,6 @@ To use it you just have to include jQuery and a copy of popup_confirmation plugi
       }
   });
 ```
+
+#### Demo
+![](example/images/demo3.gif)
