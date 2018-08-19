@@ -6,5 +6,8 @@ To use it you just have to include jQuery and a copy of popup_confirmation plugi
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="../confirmation.js"></script>
 ```
+#### Example 
 
-
+```html
+<p>Click <a href="https://www.facebook.com/" class="confirmation" confirmation-title='Confirmation' confirmation-message='Do you really    want to go to facebook ?'>Here</a> to go to facebook</p>
+```
