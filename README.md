@@ -6,6 +6,13 @@ To use it you just have to include jQuery and a copy of popup_confirmation plugi
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="../confirmation.js"></script>
 ```
+
+#### Attributes
+| Attribute | Description |
+| --- | --- |
+| confirmation-title | Title to be displayed pop up confirmation header.|
+| confirmation-message | Mesage to be diplay on pop up confirmation body.|
+
 #### Example 
 
 ```html
